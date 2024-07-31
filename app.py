@@ -9,7 +9,7 @@ st.set_page_config(
 with st.container(border=True, height=400):
  col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
  with col1:
-    st.image("img\profile_image.jpeg", width=230)
+    st.image("img/profile_image.jpeg", width=230)
     with col2:
        st.title("NAQIYA MUTMAINNAH")
        st.write("Data Scientist")
